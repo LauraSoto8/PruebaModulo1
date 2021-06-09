@@ -1,22 +1,48 @@
 
-  .header {
+.header {
     background:no-repeat center;
     background-size: cover;
     min-height: 100vh;
   }  
-  .card-body{
+.card-body{
       height: 250px;
+      background-color: teal;
+      color:white;
+  }
+.container-fluid{
+      justify-content: center;
   }
 
-
-  .card-deck{
+.card-deck{
       display: flex;
   }
-  body{
+body{
       background-color: black;
   }
-  @media(max-width:576px){
+.navbar{
+    position: fixed;
+    z-index: 10;
+    top:0;
+    width: 100%;
+    }
+
+    
+.carousel-item {
+      height: 100vh;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+@media(max-width:576px){
    .quienes{
        display: none;
    }
-  }
+   .card-deck{
+       display: inline;
+   }
+    
+   }
+  
