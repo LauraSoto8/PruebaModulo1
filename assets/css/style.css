@@ -18,6 +18,7 @@
   }
 body{
       background-color: black;
+      
   }
 .navbar{
     position: fixed;
@@ -43,6 +44,9 @@ body{
    .card-deck{
        display: inline;
    }
-    
+   .footer{
+       padding: 2px;
+   }
+   
    }
   
